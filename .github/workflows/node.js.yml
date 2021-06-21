@@ -27,4 +27,5 @@ jobs:
         cd /home/salman/actions-runner/nodejsapp/DevOps/DevOps/easy-web-app-master/
         npm i
         npm run build --if-present
+        npm audit fix
         npm test
